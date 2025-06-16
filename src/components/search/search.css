@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.searchBox input::placeholder{
+    color: #373737 !important;
+}
+input{
+    padding: 12px;
+}
+.search{
+    margin-right: 30px;
+}
