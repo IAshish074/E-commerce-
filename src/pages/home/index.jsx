@@ -1,11 +1,11 @@
 import React from 'react'
+import HomeSlider from '../../components/HomeSlider'
 
 const Home = () => {
   return (
-    <div>
-      <p>say helo to home page
-      </p>
-    </div>
+    <>
+      <HomeSlider />
+    </>
   )
 }
 
