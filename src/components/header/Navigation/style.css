@@ -16,3 +16,24 @@ Button{
 .icon{
     margin-right: 30px !important;
 }
+.nav li .submenu{
+    visibility: hidden;
+    
+}
+.nav li:hover .submenu{
+    opacity: 1 !important;
+    visibility: inherit;
+}
+.nav li .submenu{
+    z-index: 1000;
+}
+
+.nav li .submenu li .submenu{
+top: 0px !important;
+left: 120% !important;
+opacity: 0 !important;
+}
+.nav li .submenu li:hover .submenu{
+    left: 100% !important;
+    opacity: 1 !important;
+}
